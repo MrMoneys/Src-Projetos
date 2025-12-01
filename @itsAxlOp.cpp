@@ -1,0 +1,1172 @@
+
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+//      PAPA JI KO CRIDET NAHI DOGE TG :- @inscritos
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+#include <android/log.h>
+#include <unistd.h>
+#include <thread>
+#include <limits>
+#include <KittyMemory/KittyMemory.h>
+#include <KittyMemory/MemoryPatch.h>
+#include <KittyMemory/KittyScanner.h>
+#include <KittyMemory/KittyUtils.h>
+#include <xdl.h>
+#include <KittyUtils.h>
+#include <KittyMemory.h>
+#include <Il2Cpp.h>
+#include <ImguiPP.h>
+#include <Themes.h>
+#include <fstream>
+#include <SubstrateHook.h>
+#include <CydiaSubstrate.h>
+#include "AXL_MODS_HOOK/gui.hpp"
+//#include "Firewall.h"
+#include "exptime.h"
+#include "Chams.h"
+#include "oxorany/oxorany.h"
+#include "kalaland.h"
+#include "Icon/OPPOSans-H.h"
+#include "AxlMods_AutoUpdate/Icon.h"
+#include "AxlMods_AutoUpdate/Iconcpp.h"
+#include "il2cpp.h"
+#include "fonts/FontAwesome6_solid.h"
+#include "kalaland.hpp"
+//#include "Firewall.h"
+#include "AxlMods_permission.h"
+#define HOOK
+#include "AxlMods_AutoUpdate/Tools/Call_Tools.h"
+//#include "VPN/NawarFirewall1.h"
+//#include "FireWall.h"
+#include "IPBlocker.h"
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+
+// main.cpp के टॉप पर
+#include <iostream>
+#include <unordered_set>
+#include <string>
+const char* bgNames[] = { "Background 1", "Background 2", "Background 3", "Background 4", "Background 5" };
+
+int main() {
+    IPBlocker blocker;
+
+    std::string server1 = "ff-sdk-grtc.freefireind.in";
+    std::string server2 = "103.16.33.161";
+    std::string server3 = "freefireind.in";
+
+    std::cout << server1 << (blocker.isBlocked(server1) ? " ff-sdk-grtc.freefireind.in" : " 103.16.33.161");
+    std::cout << server2 << (blocker.isBlocked(server2) ? " ff-sdk-grtc.freefireind.in" : " 103.16.33.172");
+    std::cout << server3 << (blocker.isBlocked(server3) ? " freefireind.in" : " 103.16.33.171");
+
+    return 0;
+}
+
+#include "BebasNeue-Regular.h"
+float SIZE_REDUCE = 0.f;
+bool REDUCER = true;
+ImFont* F50 = nullptr;
+ImFont* F107 = nullptr;
+ImFont* SOCIAL = nullptr;
+ImFont* Bold = nullptr;
+//============
+void (*OpenURL)(String *url);
+
+struct My_Patches {
+    MemoryPatch Bypass1;
+    MemoryPatch Bypass2;
+    MemoryPatch Bypass3;
+    MemoryPatch Bypass4;
+    MemoryPatch Bypass5;
+    MemoryPatch Bypass6;
+    MemoryPatch Bypass7;
+    MemoryPatch Bypass8;
+    MemoryPatch Bypass9;
+    MemoryPatch Bypass10;
+    MemoryPatch Bypass11;
+    MemoryPatch Bypass12;
+    MemoryPatch Bypass13;
+    MemoryPatch Bypass14;
+    MemoryPatch Bypass15;
+    
+  /*  MemoryPatch Guest;
+} hexPatches;*/
+    MemoryPatch WallHack,WallHack2,fix1,fix2,fix3,fix4,fix5,fix6,Vbadge,SpeedX,SpeedY,cam1,cam2,cam3,cam4,cam5,cam6,ball1,ball2,ball3,AutoJump,ImmortalCar,AirJump;
+    MemoryPatch CTest,Catap,ghost1,ghost2,ghost3,ghost4,ghost5,ghost6,ghost7,ghost8,ghost9,ghost10,ghost11,ghost12,MagicBullet;
+}hexPatches;
+
+
+using zygisk::Api;
+using zygisk::AppSpecializeArgs;
+using zygisk::ServerSpecializeArgs;
+
+
+
+void hack();
+void writeLog(const std::string& logMessage, const std::string& filename = "/storage/emulated/0/Android/data/com.dualspace.multispace.androidx/files/log.txt");
+
+
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+
+class MyModule : public zygisk::ModuleBase {
+ public:
+  void onLoad(Api *api, JNIEnv *env) override {
+    this->api_ = api;
+    this->env_ = env;
+  
+
+  }
+
+  void preAppSpecialize(AppSpecializeArgs *args) override {
+    static constexpr const char *packages[] = {
+        "com.dts.freefiremax"
+    };
+    const char *process = env_->GetStringUTFChars(args->nice_name, nullptr);
+    for (const auto *package: packages) {
+      is_game_ = (strcmp(process, package) == 0);
+      if (is_game_) {
+        break;
+      }
+    }
+    env_->ReleaseStringUTFChars(args->nice_name, process);
+  }
+
+  void postAppSpecialize(const AppSpecializeArgs *args) override {
+    if (is_game_) {
+
+     //  genv->GetJavaVM(&gJvm);
+      std::thread{hack}.detach();
+    }
+  }
+
+ private:
+  Api *api_ = nullptr;
+  JNIEnv *env_ = nullptr;
+  bool is_game_ = false;
+};
+#include <sys/statvfs.h>
+#include <fstream>
+#include <string>
+
+long getAvailableRAM()
+{
+    std::ifstream meminfo("/proc/meminfo");
+    std::string line;
+    long ram = 0;
+    while (std::getline(meminfo, line)) {
+        if (line.find("MemAvailable:") == 0) {
+            sscanf(line.c_str(), "MemAvailable: %ld kB", &ram);
+            break;
+        }
+    }
+    return ram / 1024; // MB
+}
+
+float getAvailableStorage(const char* path = "/data")
+{
+    struct statvfs stat;
+    if (statvfs(path, &stat) != 0)
+        return 0.0f;
+    return (float)(stat.f_bavail * stat.f_frsize) / (1024*1024*1024); // GB
+}
+
+// Battery % ke liye Java JNI call required
+
+uintptr_t il2cpp_base = 0;
+void *getRealAddr(ulong offset) {
+    return reinterpret_cast<void*>(il2cpp_base + offset);
+};
+
+void Particles()
+{
+    
+  ImVec2 screen_size = ImVec2(g_GlWidth, g_GlHeight);
+    static ImVec2 partile_pos[100];
+    static ImVec2 partile_target_pos[100];
+    static float partile_speed[100];
+    static float partile_radius[100];
+
+
+    for (int i = 1; i < 50; i++)
+    {
+        if (partile_pos[i].x == 0 || partile_pos[i].y == 0)
+        {
+            partile_pos[i].x = rand() % (int)screen_size.x + 1;
+            partile_pos[i].y = 15.f;
+            partile_speed[i] = 1 + rand() % 25;
+            partile_radius[i] = rand() % 4;
+
+            partile_target_pos[i].x = rand() % (int)screen_size.x;
+            partile_target_pos[i].y = screen_size.y * 2;
+        }
+
+        partile_pos[i] = ImLerp(partile_pos[i], partile_target_pos[i], ImGui::GetIO().DeltaTime * (partile_speed[i] / 60));
+
+        if (partile_pos[i].y > screen_size.y)
+        {
+            partile_pos[i].x = 0;
+            partile_pos[i].y = 0;
+        }
+
+        ImGui::GetWindowDrawList()->AddCircleFilled(partile_pos[i], partile_radius[i], ImColor(255,255,255, 255/2));
+    }
+
+}
+#include "imGui/stb_image.h"
+#include "AXL_IMG/AxlMods.h"
+#include "AXL_IMG/AxlBackground1.h" 
+#include "AXL_IMG/AxlBackground2.h"
+#include "AXL_IMG/AxlBackground3.h" 
+#include "AXL_IMG/AxlBackground4.h"
+#include "AXL_IMG/AxlBackground5.h" 
+struct TextureInfo { ImTextureID textureId; int x; int y; int w; int h; };
+static TextureInfo textureInfo;
+TextureInfo createTexture(char *ImagePath) {
+int w, h, n;
+stbi_uc *data = stbi_load(ImagePath, &w, &h, &n, 0);
+GLuint texture;
+glGenTextures(1, &texture);
+glEnable(GL_TEXTURE_2D);
+glBindTexture(GL_TEXTURE_2D, texture);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+if (n == 3) {
+glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, w, h, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+} else {
+glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
+}stbi_image_free(data);
+textureInfo.textureId = reinterpret_cast<ImTextureID>((GLuint *) texture);
+textureInfo.w = w;
+textureInfo.h = h;
+return textureInfo;
+}TextureInfo CreateTexture(const unsigned char* buf, int len) {
+TextureInfo image;
+unsigned char* image_data = stbi_load_from_memory(buf, len, &image.w, &image.h, NULL, 0);
+if (image_data == NULL) perror("Np"); GLuint image_texture;
+glGenTextures(1, &image_texture);
+glBindTexture(GL_TEXTURE_2D, image_texture);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE); //对于非二次方纹理，这在 WebGL 上是必需的
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE); //相同的
+#if defined(GL_UNPACK_ROW_LENGTH) && !defined(__EMSCRIPTEN__)
+glPixelStorei(GL_UNPACK_ROW_LENGTH, 0);
+#endif
+glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image.w, image.h, 0, GL_RGBA, GL_UNSIGNED_BYTE, image_data);
+stbi_image_free(image_data);
+image.textureId = (ImTextureID)image_texture;
+return image;
+}
+
+TextureInfo AxlMods;
+TextureInfo AxlBackground1;
+TextureInfo AxlBackground2;
+TextureInfo AxlBackground3;
+TextureInfo AxlBackground4;
+TextureInfo AxlBackground5;
+
+extern TextureInfo AxlMods;
+extern TextureInfo AxlBackground1;
+extern TextureInfo AxlBackground2;
+extern TextureInfo AxlBackground3;
+extern TextureInfo AxlBackground4;
+extern TextureInfo AxlBackground5;
+
+void InitTexture() {
+     AxlMods       = CreateTexture(AxlMods_data, sizeof(AxlMods_data));        
+    AxlBackground1 = CreateTexture(AxlBackground1_data, sizeof(AxlBackground1_data));  
+    AxlBackground2 = CreateTexture(AxlBackground2_data, sizeof(AxlBackground2_data));        
+    AxlBackground3 = CreateTexture(AxlBackground3_data, sizeof(AxlBackground3_data));  
+    AxlBackground4 = CreateTexture(AxlBackground4_data, sizeof(AxlBackground4_data));        
+    AxlBackground5 = CreateTexture(AxlBackground5_data, sizeof(AxlBackground5_data));  
+
+    
+    
+    }
+
+static int Tab = 1;
+
+void SetupImgui() {
+IMGUI_CHECKVERSION();
+InitTexture();
+ImGui::CreateContext();
+ImGui_ImplAndroid_Init(nullptr);
+ImGuiIO& io = ImGui::GetIO();
+
+
+static const ImWchar icons_ranges[] = { 0xf000, 0xf3ff, 0 };
+ImFontConfig icons_config;
+ // ImFontConfig CustomFont;
+ // CustomFont.FontDataOwnedByAtlas = false;
+icons_config.MergeMode = true;
+icons_config.PixelSnapH = true;
+icons_config.OversampleH = 2.5;
+icons_config.OversampleV = 2.5;
+
+
+   io.Fonts->AddFontFromMemoryTTF(&BebasNeueRegular_ttf, sizeof BebasNeueRegular_ttf, 28, NULL, io.Fonts->GetGlyphRangesVietnamese());
+//ImFont* titleFont = io.Fonts->AddFontFromMemoryTTF( &BebasNeueRegular_ttf, sizeof BebasNeueRegular_ttf,50,NULL,io.Fonts->GetGlyphRangesVietnamese());
+
+io.Fonts->AddFontFromMemoryCompressedTTF(font_awesome_data, font_awesome_size, 25.0f, &icons_config, icons_ranges);
+ImGui_ImplOpenGL3_Init("#version 300 es");
+ImFontConfig font_cfg;
+font_cfg.SizePixels = 22.0f;
+io.Fonts->AddFontDefault(&font_cfg);
+   
+ImGuiStyle *style = &ImGui::GetStyle();
+//
+
+
+    ImVec4 whiteColor(1.0f, 1.0f, 1.0f, 1.0f);
+    style->WindowTitleAlign = ImVec2(0.5f,0.5f);
+
+
+    ImGui::StyleColorsLight();//   Màu Xanh Nước Biển
+ImGui::GetStyle().ScaleAllSizes(3.0f);
+ImFontConfig CustomFont;
+CustomFont.FontDataOwnedByAtlas = false;
+font_cfg.SizePixels = 22.0f;
+static const ImWchar vietnamese_chars[] = {
+0x0020, 0x00FF, // Basic Latin + Latin Supplement
+0x0102, 0x0103, // Â, â
+0x0110, 0x0111, // Đ, đ
+0x0128, 0x0129, // Ĩ, ĩ
+0x0168, 0x0169, // Ũ, ũ
+0x01A0, 0x01A1, // Ơ, ơ
+0x01AF, 0x01B0, // Ư, ư
+0x1EA0, 0x1EF9, // Vietnamese specific characters
+0 // null-terminated list
+};
+
+
+}
+
+
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+namespace Settings
+{
+    static int Tab = 1;
+}
+bool clearMousePos = true;
+bool ImGuiOK = false;
+bool initImGui = false;
+
+
+
+
+inline EGLBoolean (*old_eglSwapBuffers)(EGLDisplay dpy, EGLSurface surface);
+inline EGLBoolean hook_eglSwapBuffers(EGLDisplay dpy, EGLSurface surface) {
+    
+        eglQuerySurface(dpy, surface, EGL_WIDTH, &g_GlWidth);
+    eglQuerySurface(dpy, surface, EGL_HEIGHT, &g_GlHeight);
+    
+    
+
+
+    if (!g_IsSetup) {
+        prevWidth = g_GlWidth;
+        prevHeight = g_GlHeight;
+        SetupImgui();
+        
+        g_IsSetup = true;
+    }
+  ImGuiIO& io = ImGui::GetIO();
+
+ImGuiStyle& style = ImGui::GetStyle();
+ImVec4* colors = style.Colors;
+
+style.WindowPadding     = ImVec2(16, 16);
+style.WindowRounding    = 10.0f;
+style.WindowBorderSize  = 2.0f;
+style.FramePadding      = ImVec2(10, 6);
+style.FrameRounding     = 8.0f;
+style.ItemSpacing       = ImVec2(12, 10);
+style.ItemInnerSpacing  = ImVec2(6, 4);
+style.ScrollbarSize     = 2.0f;
+colors[ImGuiCol_WindowBg]         = ImVec4(0.08f, 0.08f, 0.10f, 0.95f);
+colors[ImGuiCol_Border]           = ImVec4(0.25f, 0.25f, 0.30f, 1.0f);
+colors[ImGuiCol_TitleBg]          = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_TitleBgActive]    = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_TitleBgCollapsed] = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_Tab]              = ImVec4(0.15f, 0.25f, 0.55f, 1.0f);
+colors[ImGuiCol_TabHovered]       = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_TabActive]        = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_TabUnfocused]     = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_TabUnfocusedActive] = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_CheckMark]        = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_FrameBg]          = ImVec4(0.12f, 0.12f, 0.15f, 1.0f);
+colors[ImGuiCol_FrameBgHovered]   = ImVec4(0.20f, 0.20f, 0.35f, 1.0f);
+colors[ImGuiCol_FrameBgActive]    = ImVec4(0.30f, 0.30f, 0.50f, 1.0f);
+colors[ImGuiCol_Text]             = ImVec4(1.0f, 1.0f, 1.0f, 0.97f);
+colors[ImGuiCol_TextDisabled]     = ImVec4(0.55f, 0.55f, 0.55f, 1.0f);
+colors[ImGuiCol_Button]           = ImVec4(0.15f, 0.35f, 0.60f, 1.0f);
+colors[ImGuiCol_ButtonHovered]    = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_ButtonActive]     = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+colors[ImGuiCol_SliderGrab]       = ImVec4(0.85f, 0.20f, 1.0f, 1.0f);
+colors[ImGuiCol_SliderGrabActive] = ImVec4(1.00f, 0.40f, 1.0f, 1.0f);
+colors[ImGuiCol_ChildBg] = ImVec4(0.0f, 0.0f, 0.0f, 0.4f);
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+
+
+
+
+    ImGui_ImplOpenGL3_NewFrame();
+    ImGui_ImplAndroid_NewFrame(g_GlWidth, g_GlHeight);
+    ImGui::NewFrame();
+	if (ImGuiOK) {
+	    int touchCount = (((int (*)())(Class_Input__get_touchCount))());
+    if (touchCount > 0) {
+        UnityEngine_Touch_Fields touch = ((UnityEngine_Touch_Fields(*)(int))(Class_Input__GetTouch))(0);
+        float reverseY = io.DisplaySize.y - touch.m_Position.fields.y;
+        switch (touch.m_Phase) {
+            case TouchPhase::Began:
+            case TouchPhase::Stationary:
+                io.MousePos = ImVec2(touch.m_Position.fields.x, reverseY);
+                io.MouseDown[0] = true;
+                break;
+            case TouchPhase::Ended:
+            case TouchPhase::Canceled:
+                io.MouseDown[0] = false;
+                clearMousePos = true;
+                break;
+            case TouchPhase::Moved:
+                io.MousePos = ImVec2(touch.m_Position.fields.x, reverseY);
+                break;
+            default:
+                break;
+        }
+    }
+	}
+	DrawESP(g_GlWidth, g_GlHeight);
+	
+static bool Show = true;
+static bool clickInProgress = false;
+static float clickStartTime = 0;
+if (Show == false) {
+if (ImGui::Begin(OBFUSCATE(" EXTREME Z CHEATS" ), 0,ImGuiWindowFlags_NoDecoration | ImGuiWindowFlags_NoBackground)) {
+const auto& pWindowDrawList = ImGui::GetWindowDrawList();    
+const auto& p = ImGui::GetWindowPos();      
+ImGui::SetCursorPos(ImVec2(5, 5));
+ImVec2 imageSize(100,100);
+ImGui::Image(AxlMods.textureId, imageSize);        
+if (ImGui::IsItemHovered()) {
+if (ImGui::IsMouseClicked(ImGuiMouseButton_Left)) {clickInProgress = true;
+clickStartTime = ImGui::GetTime();}}
+if (clickInProgress && ImGui::IsMouseReleased(ImGuiMouseButton_Left)) {clickInProgress = false;
+float currentTime = ImGui::GetTime();
+float clickDuration = currentTime - clickStartTime;
+if (clickDuration < 0.2f) {Show = true;
+}}}}
+ImGui::End();
+
+	if (Show) {
+	
+   
+    
+      
+		ExpireDate exp;
+exp.setExpirationDate(18,12,2025);//SELECIONE AQUI UMA DATA QUE FARA O SEU MOD MENU FICAR EXPIRADO
+if (exp.isExpired()) {
+
+ImGui::Text(OBFUSCATE(ICON_FA_FIGHTER_JET "MOD EXPIRADO!" ICON_FA_CHECK_CIRCLE));// INFORMACAO DE MOD EXPIRADO - ADICIONE OQUE QUISER
+ImGui::Separator();
+ImGui::Text(OBFUSCATE(ICON_FA_FIGHTER_JET "NOVA UPDATE NO SITE" ICON_FA_CHECK_CIRCLE));//MENSSAGEM DE ALERTA QUE INCETIVA O PESSOAL A ENTRAR NO SEU CANAL DO TELEGRAM
+if (ImGui::Button(ICON_FA_TELEGRAM"  IR PARA O SITE", ImVec2(ImGui::GetContentRegionAvailWidth(), 50))) {//NOME DO BOTAO USADO PARA ENTRAR NO GRUPO DO TELEGRAM
+OpenURL(Il2CppString::Create(OBFUSCATE("https://MRMONEYS.COM")));//ADICIONE AQUI O LINK DO SEU GRUPO OU CANAL
+}
+ImGui::End();    
+} else {
+
+
+static int currentTab = 0;
+static float borderAnim = 0.0f;
+
+  static int selectedBackground = 0;
+ImGui::SetNextWindowSize(ImVec2(700, 480), ImGuiCond_Once);
+ImGui::Begin("EXTRME Z CHEATS ", &Show, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoScrollbar);//ADICIONE O NOME QUE VOCE QUER TER DENTRO DO MOD MENU QUANDO FOR ABERTO
+
+ImDrawList* draw = ImGui::GetWindowDrawList();
+ImVec2 winPos = ImGui::GetWindowPos();
+ImVec2 winSize = ImGui::GetWindowSize();
+if (selectedBackground == 0 && AxlBackground1.textureId)
+    draw->AddImage(AxlBackground1.textureId, winPos, ImVec2(winPos.x + winSize.x, winPos.y + winSize.y));
+if (selectedBackground == 1 && AxlBackground2.textureId)
+    draw->AddImage(AxlBackground2.textureId, winPos, ImVec2(winPos.x + winSize.x, winPos.y + winSize.y));
+if (selectedBackground == 2 && AxlBackground3.textureId)
+    draw->AddImage(AxlBackground3.textureId, winPos, ImVec2(winPos.x + winSize.x, winPos.y + winSize.y));
+if (selectedBackground == 3 && AxlBackground4.textureId)
+    draw->AddImage(AxlBackground4.textureId, winPos, ImVec2(winPos.x + winSize.x, winPos.y + winSize.y));
+if (selectedBackground == 4 && AxlBackground5.textureId)
+    draw->AddImage(AxlBackground5.textureId, winPos, ImVec2(winPos.x + winSize.x, winPos.y + winSize.y));
+borderAnim += ImGui::GetIO().DeltaTime * 120;
+for (int i = 0; i < 4; i++) {
+    float alpha = 0.5f + 0.5f * sin((borderAnim / 60.0f) + i);
+    ImColor borderColor = ImColor::HSV(fmod((borderAnim / 100.0f) + (i * 0.25f), 1.0f), 0.8f, 1.0f, alpha);
+    draw->AddRect(winPos, ImVec2(winPos.x + winSize.x, winPos.y + winSize.y),
+                  borderColor, 12.0f, 0, 3.5f);
+}
+ImGui::BeginChild("##Tabs", ImVec2(166, 0), true);
+const char* tabs[6] = { "Aimbot", "ESP", "Chams", "Misc", "notic", "info" };
+
+for (int i = 0; i < 6; i++) {
+    if (currentTab == i) {
+        ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(1.0f, 0.0f, 0.0f, 1.0f));
+        ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4(1.0f, 0.0f, 0.0f, 1.0f));
+        ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4(1.0f, 0.0f, 0.0f, 1.0f));
+    } else {
+        ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(0.15f, 0.15f, 0.20f, 1.0f));
+        ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4(0.25f, 0.25f, 0.30f, 1.0f));
+        ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4(0.35f, 0.35f, 0.40f, 1.0f));
+    }
+
+    if (ImGui::Button(tabs[i], ImVec2(145, 45))) {
+        currentTab = i;
+    }
+
+    ImGui::PopStyleColor(3);
+    ImGui::Spacing();
+}
+ImGui::EndChild();
+    ImGui::SameLine();
+    ImGui::BeginChild("##Functions", ImVec2(0, 0), true);
+    ImGui::TextColored(ImVec4(1.0f, 0.0f, 0.0f, 1.0f), "  %s Functions:", tabs[currentTab]);
+    ImGui::Separator();
+    ImGui::Separator();
+    ImGui::Spacing();
+
+    switch (currentTab) {
+    case 0:
+        ImGui::Checkbox("ENABLE FUNCTION", &ActiveFeature);
+        
+        ImGui::Checkbox("AIM-SILENT PRO", &AimSilent);
+	
+        ImGui::Spacing();
+		ImGui::Separator();
+    
+        ImGui::Spacing();
+       ImGui::Separator();
+     
+ImGui::PushStyleColor(ImGuiCol_PopupBg, ImVec4(0, 0, 0, 1));
+ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(1, 1, 1, 1));
+//ImGui::Combo("BG", &selectedBackground, bgNames, IM_ARRAYSIZE(bgNames));
+ImGui::PopStyleColor(2);
+
+        break;
+
+    case 1:
+        ImGui::Checkbox("ENABLE ESP", &Enable);
+        ImGui::Checkbox("ESP-LINE", &Config.ESP.Line);
+        ImGui::Checkbox("ESP-BOX", &Config.ESP.Box);
+        ImGui::Checkbox("ESP HEALTH", &Config.ESP.Health);
+        ImGui::Checkbox("ESP NAME", &Config.ESP.Target);
+        ImGui::Checkbox("ESP DISTANCE", &Config.ESP.Distance);
+        break;
+
+    case 2:
+        ImGui::Checkbox("DEFAULT CHAMS", &chams);
+        ImGui::Checkbox("CHAMS-SHADING", &shading);
+        ImGui::Checkbox("CHAMS-WIREFRAME", &wireframe);
+        ImGui::Checkbox("CHAMS-GLOW", &glow);
+        ImGui::Checkbox("CHAMS-OUTLINE", &outline);
+        ImGui::Checkbox("CHAMS-RAINBOW", &rainbow);
+        break;
+        case 3:
+    ImGui::Checkbox("DOUBLE GUN", &DoubleGun);
+    ImGui::Checkbox("GOLD BODY", &GoldenAll);
+    ImGui::Checkbox("TELEKILL-PRO", &Mass.Sucks);
+    ImGui::Checkbox("FAST GUN SWITCH", &fastswitch);
+    ImGui::Checkbox("10X SPEED", &isSpeedSafe);
+    ImGui::Checkbox("NO-RECOIL", &NoRecoil);
+	//ImGui::Checkbox("Reset Guest", &ResetGuest);
+
+    break;
+      
+    case 4: // ADICIONE AQUÍ AS INFORMAÇÕES DO MOD MENU
+       ImGui::Text("  BY MRMONEYS™");
+       ImGui::Text("  EXPIRA: 18/12/2025");
+       ImGui::Text("  STATUS:ONLINE");
+       ImGui::Text("  VERSÃO: CPP9991762VA©");
+       
+        break;
+        
+          case 5:
+            ImGui::Checkbox("INFO", &showDeviceInfo);
+            if (ImGui::Button(ICON_FA_TELEGRAM"  ENTRAR NO TELEGRAM", ImVec2(ImGui::GetContentRegionAvailWidth(), 50))) {
+OpenURL(Il2CppString::Create(OBFUSCATE("https://t.me/+QC5fSRjFEicwOWQ1")));
+}
+if (ImGui::Button(ICON_FA_TELEGRAM"  INFO DO ADM", ImVec2(ImGui::GetContentRegionAvailWidth(), 50))) {
+OpenURL(Il2CppString::Create(OBFUSCATE("t.me/RPHIT_PRIME")));
+}
+if (ImGui::Button(ICON_FA_TELEGRAM"  IR PARA YOUTUBE", ImVec2(ImGui::GetContentRegionAvailWidth(), 50))) {
+OpenURL(Il2CppString::Create(OBFUSCATE("https://www.youtube.com/@ROHIT_HACKS")));
+}
+if (ImGui::Button(ICON_FA_TELEGRAM"  SIGA NO INSTA", ImVec2(ImGui::GetContentRegionAvailWidth(), 50))) {
+OpenURL(Il2CppString::Create(OBFUSCATE("https://www.instagram.com/prajapati_samaj_2k?igsh=MTU1OHRhNGVzc20xMQ==")));
+}
+        break;
+    
+    }
+
+    ImGui::EndChild();
+    ImGui::End();
+if (showDeviceInfo)
+{
+    ImGui::SetNextWindowBgAlpha(0.5f); 
+    ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_Always); 
+    ImGui::Begin("##DeviceInfo", nullptr,
+                 ImGuiWindowFlags_NoTitleBar |
+                 ImGuiWindowFlags_AlwaysAutoResize |
+                 ImGuiWindowFlags_NoMove |
+                 ImGuiWindowFlags_NoCollapse |
+                 ImGuiWindowFlags_NoScrollbar);
+
+    ImGui::Text("Battery:%");
+    ImGui::Text("RAM: ");
+    ImGui::Text("Storage: ");
+
+    ImGui::End();
+}
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+}}
+ImGui::End();
+ImGui::PopStyleVar(3);
+ImGui::PopStyleColor(2);
+
+
+ImGui::End();
+
+ImGui::Render(); 
+    
+    
+    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+        return old_eglSwapBuffers(dpy, surface);
+}
+typedef unsigned long DWORD;
+static uintptr_t libBase;
+
+uintptr_t string2Offset(const char *c) {
+    int base = 16;
+    // See if this function catches all possibilities.
+    // If it doesn't, the function would have to be amended
+    // whenever you add a combination of architecture and
+    // compiler that is not yet addressed.
+    static_assert(sizeof(uintptr_t) == sizeof(unsigned long)
+                  || sizeof(uintptr_t) == sizeof(unsigned long long),
+                  "Please add string to handle conversion for this architecture.");
+
+    // Now choose the correct function ...
+    if (sizeof(uintptr_t) == sizeof(unsigned long)) {
+        return strtoul(c, nullptr, base);
+    }
+
+    // All other options exhausted, sizeof(uintptr_t) == sizeof(unsigned long long))
+    return strtoull(c, nullptr, base);
+}
+
+float (*GetSpeedScaleBySpeedType)(void *instance);
+
+float _GetSpeedScaleBySpeedType(void *instance) {
+   
+ if (instance != nullptr) {
+        switch (isSpeed) {
+            case 0: return GetSpeedScaleBySpeedType(instance);            
+            case 1: return 2.4f;
+            case 2: return 2.5f;
+            case 3: return 2.6f;
+            case 4: return 2.7f;
+            case 5: return 2.8f;
+            case 6: return 2.9f;
+            case 7: return 3.0f;
+            case 8: return 3.1f;
+            case 9: return 3.2f;
+   
+            default: return GetSpeedScaleBySpeedType(instance);
+        }
+  
+    }
+    return GetSpeedScaleBySpeedType(instance);
+}
+
+
+float (*GetWeaponRunSpeedScale)(void *instance);
+
+float _GetWeaponRunSpeedScale(void *instance) {
+ 
+ 
+    if (instance != nullptr) {
+        switch (isSpeed) {
+            case 0: return GetWeaponRunSpeedScale(instance);            
+            case 1: return 2.4f;
+            case 2: return 2.5f;
+            case 3: return 2.6f;
+            case 4: return 2.7f;
+            case 5: return 2.8f;
+            case 6: return 2.9f;
+            case 7: return 3.0f;
+            case 8: return 3.1f;
+            case 9: return 3.2f;
+            default: return GetWeaponRunSpeedScale(instance);
+        }
+ 
+    }
+    return GetWeaponRunSpeedScale(instance);
+}
+bool (*SpeedFix)();
+
+bool _SpeedFix() {
+    return true;
+}
+
+inline void hack_injec();
+inline void StartGUI() {
+    void *ptr_eglSwapBuffer = DobbySymbolResolver("/system/lib/libEGL.so", "eglSwapBuffers");
+    if (NULL != ptr_eglSwapBuffer) {
+        DobbyHook((void *)ptr_eglSwapBuffer, (void*)hook_eglSwapBuffers, (void**)&old_eglSwapBuffers);
+            LOGD("Gui Started");
+            hack_injec();
+        }
+    }
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+bool libLoaded = false;
+
+DWORD findLibrary(const char *library) {
+    char filename[0xFF] = {0},
+            buffer[1024] = {0};
+    FILE *fp = NULL;
+    DWORD address = 0;
+
+    sprintf(filename, OBFUSCATE("/proc/self/maps"));
+
+    fp = fopen(filename, OBFUSCATE("rt"));
+    if (fp == NULL) {
+        perror(OBFUSCATE("fopen"));
+        goto done;
+    }
+
+    while (fgets(buffer, sizeof(buffer), fp)) {
+        if (strstr(buffer, library)) {
+            address = (DWORD) strtoul(buffer, NULL, 16);
+            goto done;
+        }
+    }
+
+    done:
+
+    if (fp) {
+        fclose(fp);
+    }
+
+    return address;
+}
+
+DWORD getAbsoluteAddress(const char *libraryName, DWORD relativeAddr) {
+    libBase = findLibrary(libraryName);
+    if (libBase == 0)
+        return 0;
+    return (reinterpret_cast<DWORD>(libBase + relativeAddr));
+}
+ProcMap unityMap, anogsMap, il2cppMap;
+using KittyScanner::RegisterNativeFn;
+
+
+
+
+void *GetVehicle(void * match) {
+    if (!Match) return nullptr;
+         void* veiculo = nullptr;
+         void* PlayerClient = GetLocalPlayer(match);//0
+         void* vehicle = GetLocalCar(PlayerClient);
+         bool dirigindo = IsDriver(PlayerClient);
+         if (vehicle != nullptr && !get_IsPassenger(PlayerClient)) 
+         {
+             veiculo = vehicle;
+         }
+     return veiculo;
+}
+
+//void *(*UnderCar)(Vector3 pVehicle);
+ void *(*UnderCar)(Vector3 pVehicle);
+void *_UnderCar(Vector3 pVehicle) {
+void * vehicle = GetVehicle(Curent_Match());
+if (vehicle != nullptr) {
+if (Under > 0) {
+pVehicle.x;
+pVehicle.y = pVehicle.y - Under;
+pVehicle.z;
+return UnderCar(pVehicle);
+}
+}
+return UnderCar(pVehicle);
+}
+
+
+void hack() {
+     LOGD("Inject Ok");
+    //std::thread thread_hack(hack_thread, getpid());
+    //thread_hack.detach();
+    
+}
+uintptr_t get_symbol_addr_in_pid(pid_t pid, const char* libname, uintptr_t offset_in_lib) {
+    char maps_path[64];
+    snprintf(maps_path, sizeof(maps_path), "/proc/%d/maps", pid);
+
+    FILE* fp = fopen(maps_path, "r");
+    if (!fp) return 0;
+
+    char line[512];
+    uintptr_t base = 0;
+
+    while (fgets(line, sizeof(line), fp)) {
+        if (strstr(line, libname)) {
+            sscanf(line, "%lx-%*lx", &base);
+            break;
+        }
+    }
+    fclose(fp);
+
+    if (base == 0) return 0;
+    return base + offset_in_lib;
+}
+
+pid_t get_pid_by_name(const char* process_name) {
+    DIR* proc_dir = opendir("/proc");
+    if (!proc_dir) return -1;
+
+    struct dirent* entry;
+    while ((entry = readdir(proc_dir)) != NULL) {
+        if (entry->d_type != DT_DIR) continue;
+
+        pid_t pid = atoi(entry->d_name);
+        if (pid <= 0) continue;
+
+        char cmdline_path[256];
+        snprintf(cmdline_path, sizeof(cmdline_path), "/proc/%d/cmdline", pid);
+
+        FILE* fp = fopen(cmdline_path, "r");
+        if (!fp) continue;
+
+        char cmdline[256];
+        fgets(cmdline, sizeof(cmdline), fp);
+        fclose(fp);
+
+        if (strstr(cmdline, process_name)) {
+            closedir(proc_dir);
+            return pid;
+        }
+    }
+
+    closedir(proc_dir);
+    return -1;
+}
+
+void writeLog(const std::string& logMessage, const std::string& filename) {
+    std::ofstream outFile(filename, std::ios::app); // Mở file ở chế độ append (thêm)
+    if (outFile.is_open()) {
+        outFile << logMessage << std::endl;
+        outFile.close();
+    } else {
+        std::cerr << "Không thể mở file log: " << filename << std::endl;
+    }
+}
+
+bool is_current_process(const char* target_name) {
+    char cmdline_path[64];
+    snprintf(cmdline_path, sizeof(cmdline_path), "/proc/%d/cmdline", getpid());
+
+    FILE* fp = fopen(cmdline_path, "r");
+    if (!fp) return false;
+
+    char cmdline[256] = {0};
+    fgets(cmdline, sizeof(cmdline), fp);
+    fclose(fp);
+
+    return strcmp(cmdline, target_name) == 0;
+}
+
+
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+void (*Orig_UpdateAim)(void* PlayerInstance, float sTime, float mTime);
+void Proxy_UpdateAim(void* PlayerInstance, float sTime, float mTime) {
+    void* match = Curent_Match();
+    void* localPlayer = GetLocalPlayer(match);
+    if (localPlayer != nullptr) {
+        _DarkUpdateX(PlayerInstance);
+    }
+  return Orig_UpdateAim(PlayerInstance, sTime, mTime);
+}
+
+
+//HOOK(0x5898d74, _UnderCar, UnderCar);
+
+
+
+
+void hack_injec() {
+    while (!unityMap.isValid()) {
+        unityMap = KittyMemory::getLibraryBaseMap("libunity.so");
+        anogsMap = KittyMemory::getLibraryBaseMap("libanogs.so");
+        il2cppMap = KittyMemory::getLibraryBaseMap("libil2cpp.so");
+        
+        sleep(6);
+    }
+    
+ sleep(5);
+    Il2CppAttach();
+    
+    if (mlovinit()) {
+        setShader("_AlphaMask"); //Varies according to game
+        LogShaders();
+        Wallhack();
+    }
+/*
+HOOK(string2Offset(OBFUSCATE("0x128d968")), hook_IsPoseFallingHigh, orig_IsPoseFallingHigh);
+HOOK(string2Offset(OBFUSCATE("0x5d8c55c")), hook_GetPhysXState2, orig_GetPhysXState2);
+HOOK(string2Offset(OBFUSCATE("0x12d3e4c")), hook_UpdateBehavior, orig_UpdateBehavior);
+HOOK(string2Offset(OBFUSCATE("0x1352830")), hook_IsIgnoreHighFalling, orig_IsIgnoreHighFalling);
+
+
+*
+
+ DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("IsIgnoreHighFalling"), 0), (void *) hook_IsIgnoreHighFalling, (void **)&orig_IsIgnoreHighFalling);
+ DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("UpdateBehavior"), 0), (void *) hook_UpdateBehavior, (void **)&orig_UpdateBehavior);
+ DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("get_IsPoseFallingHigh"), 0), (void *) hook_IsPoseFallingHigh, (void **)&orig_IsPoseFallingHigh);
+ 
+ */
+ 
+
+DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("get_IsGod"), 0), (void *) _get_IsGod, (void **) &get_IsGod); 
+     
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Weapon"), OBFUSCATE("GetCombineType"), 0), (void *) _GetCombineType, (void **) &GetCombineType);
+
+//DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("OJOHLBJEIJO"), 2), (void *) hook_mrAimSilent, (void **)&orig_mrSilentAim);
+     DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("PlayerAttributes"), OBFUSCATE("GetDashSpeedScale"), 0), (void *) _GetWeaponRunSpeedScale, (void **)& GetWeaponRunSpeedScale);
+     DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("PlayerAttributes"), OBFUSCATE("GetDashSpeedScale"), 0), (void *) _GetWeaponRunSpeedScale, (void **)& GetWeaponRunSpeedScale);
+   DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("IsFoldWingGliding"), 0), (void *) _SpeedFix, (void **)& SpeedFix);
+   DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("IsFoldWingGliding"), 0), (void *) _IsFoldWingGliding, (void **)& IsFoldWingGliding);
+   DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("message"), OBFUSCATE("ProtoUtil"), OBFUSCATE("MappingFromPhysXState"), 1), (void *) _SpeedFix, (void **)& SpeedFix);
+      DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("message"), OBFUSCATE("ProtoUtil"), OBFUSCATE("MappingFromPhysXState"), 1), (void *) _GetSpeedScaleBySpeedType, (void **)& GetSpeedScaleBySpeedType);
+   DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("message"), OBFUSCATE("ProtoUtil"), OBFUSCATE("MappingFromPhysXState"), 1), (void *) _MappingFromPhysXState, (void **)& MappingFromPhysXState);
+   
+   
+  // DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("UpdateRotation"), 2), (void *) hook_mrAimSilent, (void **)&orig_mrSilentAim);
+     DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("get_InSwapWeaponCD"), 0), (void *) _get_InSwapWeaponCD, (void **) &get_InSwapWeaponCD);
+ DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("get_InSwapWeaponCD"), 0), (void *) _get_InSwapWeaponCD, (void **) &get_InSwapWeaponCD);
+     
+
+//DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("message"), OBFUSCATE("ProtoUtil"), OBFUSCATE("MappingFromPhysXState"), 1), (void *) _LEBIPIGPEEP, (void **)& LEBIPIGPEEP);
+//aimsilent
+ //DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("UpdateRotation"), 2), (void *) hook_mrAimSilent, (void **)&orig_mrSilentAim);
+
+ //DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("OJOHLBJEIJO"), 2), (void *) hook_mrAimSilent, (void **)&orig_mrSilentAim);
+
+     
+DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("UpdateBehavior"), 2), (void *) _LateUpdate, (void **) &LateUpdate);
+    //aimsilent
+    //DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("OJOHLBJEIJO"), 2), (void *) hook_mrAimSilent, (void **)&orig_mrSilentAim);
+     
+        // Speed Run
+  // DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("IsFoldWingGliding"), 0), (void *) _IsFoldWingGliding, (void **)& IsFoldWingGliding);
+    //DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("message"), OBFUSCATE("LLOABGDLMGK"), OBFUSCATE("LEBIPIGPEEP"), 1), (void *) _LEBIPIGPEEP, (void **)& LEBIPIGPEEP);
+
+    // ResetGuest
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("GameConfig") , OBFUSCATE("get_ResetGuest"), 0), (void *) ResetGuest, (void **) &_ResetGuest);
+    
+     // Cam Xa
+    //DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("FollowCamera"), OBFUSCATE("get_OffsetForNormal"), 0),(void *)_GetCameraHeightRateValue, (void **)&GetCameraHeightRateValue);
+    
+    //ESPDRENDE
+ DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("GrenadeLine"), OBFUSCATE("Update"), 0), (void *) _UpdateLine, (void **)& UpdateLine);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("GrenadeLine"), OBFUSCATE("set_ShowThrowSkillLine"), 0), (void *) _UpdateLine, (void **)& UpdateLine);
+    
+    
+        DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("PlayerAttributes") , OBFUSCATE("GetScatterRate"), 0), (void *) _GetScatterRate, (void **) &GetScatterRate);
+    
+  //  public Single () { }
+    
+    // Bypass
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("UnityEngine.CoreModule.dll"), OBFUSCATE("UnityEngine"), OBFUSCATE("AndroidJNI"), OBFUSCATE("IsInstanceOf"), 2), (void *) &_Bypass, (void **) &Bypass);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("JPPGAJBAAKK"), OBFUSCATE("IsOnlineGame"), 2), (void *) &_Bypass, (void **) &Bypass);
+   // DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("AnoSDKNamespace"), OBFUSCATE("IOPOOHPNCKH"), OBFUSCATE("LBABEMNOJAJ"), 8), (void *) &_Bypass, (void **) &Bypass);
+
+    //Fix Game
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("mscorlib.dll"), OBFUSCATE("System"), OBFUSCATE("SerializableAttribute"), OBFUSCATE(".ctor"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("GarenaMSDK"), OBFUSCATE("GarenaMSDKMgr"), OBFUSCATE("IsPlatformInstalled"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("System.dll"), OBFUSCATE("System.Net"), OBFUSCATE("WebProxy"), OBFUSCATE("IsBypassed"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("System.dll"), OBFUSCATE("System.Net"), OBFUSCATE("IWebProxy"), OBFUSCATE("IsBypassed"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("System.dll"), OBFUSCATE("System.Net"), OBFUSCATE("WebProxy"), OBFUSCATE(".ctor"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("System.dll"), OBFUSCATE("System.Net"), OBFUSCATE("WebProxy"), OBFUSCATE("CheckBypassList"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("EventLogger"), OBFUSCATE("LogReportCheatInHistory"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("EventLogger"), OBFUSCATE("LogReportCheat"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("MobileReplayManager"), OBFUSCATE("GetGameTimeMS"), 0), (void *) &_FixGame, (void **) &FixGame);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("CreditPunishManager"), OBFUSCATE("ShowPunishWindow"), 0), (void *) &_FixGame, (void **) &FixGame);
+
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("PlayerNetwork"), OBFUSCATE("TakeDamage"), 9), (void *) &hook_PlayerNetwork_TakeDamage, (void **) &orig_PlayerNetwork_TakeDamage);
+    
+DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Weapon"), OBFUSCATE("OnCalcDamageOrHealing"), 1), (void *) BLAGCMCGEJG1,(void **) &old_BLAGCMCGEJG1);
+    
+    
+    /*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+       DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("GameConfig"), OBFUSCATE("get_GER_BypassAllFilters"), 0), (void *) _get_GER_BypassAllFilters, (void **)& get_GER_BypassAllFilters);
+   
+              DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW"), OBFUSCATE("GameFacade"), OBFUSCATE("IsUnlimitedGloowall"), 0), (void *) _IsUnlimitedGloowall, (void **)& IsUnlimitedGloowall);
+       
+//DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("Player"), OBFUSCATE("OnFixedUpdate"), 2), (void *) Proxy_UpdateAim, (void **) &Orig_UpdateAim
+  //    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("UnityEngine.ParticleSystemModule.dll"), OBFUSCATE(""), OBFUSCATE("CollisionModule"), OBFUSCATE("get_maxKillSpeed"), 0), (void *) &_get_maxKillSpeed, (void **) &get_maxKillSpeed);
+    // Bypass Esp
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("SceneGraphicsQuality"), OBFUSCATE("SetGraphicsQuality"), 0), (void *) _BypassESP, (void **) &BypassESP);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("UnityEngine.CoreModule.dll"), OBFUSCATE("UnityEngine"), OBFUSCATE("Screen"), OBFUSCATE("SetResolution"), 0), (void *) _BypassESP, (void **) &BypassESP);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("UnityEngine.CoreModule.dll"), OBFUSCATE("UnityEngine"), OBFUSCATE("QualitySettings"), OBFUSCATE("GetQualityLevel"), 0), (void *) _BypassESP, (void **) &BypassESP);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("COW.GamePlay"), OBFUSCATE("SceneGraphicsQuality"), OBFUSCATE("SetGraphicsQuality"), 0), (void *) _BypassESP, (void **) &BypassESP);
+
+    // Bypass New
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("GCommon"), OBFUSCATE("PlatformUtility_Android"), OBFUSCATE("IsPackageInstalled"), 0), (void *) _Set_Aim, (void **) &Set_Aim);
+    DobbyHook(Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("GCommon"), OBFUSCATE("PlatformUtility_Android"), OBFUSCATE("CheckFileExists"), 0), (void *) _Set_Aim, (void **) &Set_Aim);
+
+    OpenURL = (void (*)(String *))Il2CppGetMethodOffset("UnityEngine.CoreModule.dll","UnityEngine","Application","OpenURL",1);
+ImGuiOK = true;
+    
+}
+
+void hack_thread(pid_t pid) {
+    
+    StartGUI();
+    while(pid == -1){pid = get_pid_by_name("com.dts.freefiremax");} 
+    remote_inject(pid);
+    writeLog(to_string(pid));
+    
+}
+
+JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void * reserved) {
+JNIEnv *env;
+vm->GetEnv((void **) &env, JNI_VERSION_1_6); 
+return JNI_VERSION_1_6;
+}
+
+__attribute__((constructor))
+void lib_main()
+{
+    std::thread thread_hack(hack_thread, get_pid_by_name("com.dts.freefiremax"));
+    thread_hack.detach();
+}
+//REGISTER_ZYGISK_MODULE(MyModule)
+/*
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+===============================[ 𝗠𝗔𝗗𝗘 𝗕𝗬 @INSCRITOS ]============================
+*/
+
